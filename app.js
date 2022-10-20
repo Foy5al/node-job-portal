@@ -17,7 +17,7 @@ app.use("/manager/jobs", hiringManagerInfo);
 app.use("/user", userRoute);
 
 app.get("/", (req, res) => {
-  res.send("Job-Portal-system surver is connected!!");
+  res.send("Job-Portal server is connected!!");
 });
 
 module.exports = app;

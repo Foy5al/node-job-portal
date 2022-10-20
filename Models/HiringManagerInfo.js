@@ -6,7 +6,7 @@ const hiringManagerInfoSchema = mongoose.Schema(
   {
     name: {
       type: String,
-      required: [true, "please provide your name"],
+      required: [true, "please enter your name"],
       unique: [true, "name must be unique"],
       minLength: [3, "name must be at list 3 characters"],
       maxLength: [100, "name is to long"],
