@@ -17,7 +17,10 @@ app.use("/manager/jobs", hiringManagerInfo);
 app.use("/user", userRoute);
 
 app.get("/", (req, res) => {
-  res.send("Job-Portal server is connected!!");
+  res.send(`
+  Job-Portal server is connected!! <br/>
+  <a href="https://github.com/Foy5al/node-job-portal#nodejs-job-portal-api" target="_blank"> Click here for documentation </a>
+  `);
 });
 
 module.exports = app;
