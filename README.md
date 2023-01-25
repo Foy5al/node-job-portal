@@ -1,7 +1,7 @@
 
 # NodeJS job portal API
 
-Job portal API. Where employers can post jobs and job seekers can apply within the deadline date. The employer also can track the applied list by making a request also use authorization and authentication for the login system.
+The "node-job-portal" API is a web-based API built using Node.js and MongoDB that allows developers to create and manage job portals. It provides a set of functionalities for creating and managing job postings, applying to jobs, and managing job applications. The API also includes functionality for managing user accounts, including registering and logging in. The API is designed using RESTful principles and utilizes popular npm packages such as Express, and Mongoose. The API is well-documented and has test cases written ensuring robustness and reliability. With this API, developers can easily create a job portal application that is fast, reliable, and secure. This API can be a great solution for companies or organizations that are looking to build a job portal, or for individuals looking to create a job portal as a side project.
 
 ## Tech Stack
 
